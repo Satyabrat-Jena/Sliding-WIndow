@@ -28,6 +28,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
     border-radius: 50px;
     flex: 0.5;
     margin: 10px;
@@ -83,12 +84,13 @@ body{
     bottom: 75px;
     width: 35em;
     background-color: rgba(0, 0, 0, 0.418);
-/*     filter: blur(1px); */
     border-radius: 20px;
 }
 
 .panel.active p{
     position: relative;
+    font-size: 19px;
+    font-weight: 900;
     opacity: 1;
 }
 
