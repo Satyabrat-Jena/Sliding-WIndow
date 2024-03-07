@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: slategrey;
+    font-family: 'Muli';
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.panel{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    flex: 0.5;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    transition: flex 0.8s ease-in;
+}
+
+/* .panel:hover{
+    flex: 7;
+} */
+
+.p1{
+    background-image: url(img/Decoration.png);
+}
+.p2{
+    background-image: url(img/Conference.png);
+}
+.p3{
+    background-image: url(img/Alumni\ &\ Teachers.png);
+}
+.p4{
+    background-image: url(img/Boys_Dance.png);
+}
+.p5{
+    background-image: url(img/MCA_batch.jpg);
+}
+.p6{
+    background-image: url(img/Director.png);
+}
+
+.panel h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+}
+
+.panel.active{
+    flex: 5;
+}
+
+.panel.active h3{
+    opacity: 1;
+}
+
+.panel.active h3{
+    opacity: 1;
+}
+.panel.active div{
+    position: absolute;
+    bottom: 75px;
+    width: 35em;
+    background-color: rgba(0, 0, 0, 0.418);
+    filter: blur(1px);
+    border-radius: 20px;
+}
+
+.panel.active p{
+    position: relative;
+    opacity: 1;
+}
+
+.para{
+    visibility: hidden;
+}
+.para1{
+    visibility: visible;
+}
+
+.hide{
+    opacity: 0;
+}
+
+@media (max-width : 700px) {
+    .conatainer{
+        width : 100vw;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5){
+        display:none;
+    }
+}
