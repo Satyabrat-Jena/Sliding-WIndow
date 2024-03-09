@@ -6,7 +6,7 @@
 
 body{
     background-color: slategrey;
-    background: linear-gradient(#b36e6e,rgb(212, 91, 40));
+    background: linear-gradient(white,blue);
     font-family: 'Muli';
     margin: 0;
     display: flex;
