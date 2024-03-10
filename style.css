@@ -5,8 +5,9 @@
 }
 
 body{
-    background-color: slategrey;
-    background: linear-gradient(white,blue);
+/*     background-color: slategrey;
+    background: linear-gradient(white,blue); */
+    background: linear-gradient(slategrey,rgb(44, 49, 55));
     font-family: 'Muli';
     margin: 0;
     display: flex;
